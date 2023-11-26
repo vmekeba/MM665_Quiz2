@@ -1,0 +1,35 @@
+nav ul {
+    list-style-type: none; /* remove bullets */
+    margin: 0;
+    padding: 16px;
+    background-color: rgb(255, 153, 0);
+}
+
+nav li {
+    display: inline; /* change li from block level element to inline */
+    font-family: 'Open Sans', sans serif 30px';
+}
+
+nav a:link, nav a:visited {
+    color: black;
+	  background-color: rgb(255, 153, 0);
+	  border-radius: 3px; /*round the corners on the nav items*/
+	  text-decoration: none; /*remove default underlines from links*/
+	  padding: 2px 6px;
+	  margin: 0px;
+	  font-size: 0.9em;
+    border: 1px solid white;
+}
+
+nav a:hover {
+	background-color: rgb(255, 153, 0);
+  color: rgb(255, 153, 0);
+  border: 1px rgb(255, 110, 180);
+	}
+
+/* change color of the link to the current page to tell the user what page they are on   */
+
+nav a.current {
+  background-color: rgb(255, 153, 0);
+  color: white;
+}

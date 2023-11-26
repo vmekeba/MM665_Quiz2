@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(255, 204, 102);
+}
+
+main {
+  width: 1000px;
+  margin: 20px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Satisfy', cursive;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: rgb(255, 102, 0)
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  color: rgb(255, 102, 0)
+}
+
+p, li, figcaption {
+font-family: 'Open Sans', sans-serif;
+}
+
+p, figcaption {font-size: 16px
+}
+
+figure {
+  margin: 0 auto;
+}

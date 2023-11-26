@@ -1,0 +1,121 @@
+
+h1, h2, h3, h5 {
+  text-transform: uppercase;
+  font-family: 'Flamenco', cursive;
+}
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+  line-height: 0.8em;
+}
+h1.small {
+  font-size: 1.8em;
+  margin-top: 12px;
+}
+h2 {
+  font-size: 2.5em;
+  line-height: 1.0em;
+}
+
+h3 {
+  font-size: 1.4em;
+  line-height: 1.0em;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-family: 'Source Serif Pro', serif;
+  line-height: 1.1em;
+}
+
+h4.hed {
+  font-style: italic;
+  font-size: 1.33em
+}
+
+h4.center{
+  text-align: center;
+}
+
+h5 {
+  font-size: 1em;
+  line-height: 1.3em;
+  color: red;
+  margin-top: 16px;
+}
+
+h6, li {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h6 {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+p{
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.1em;
+  line-height: normal;
+}
+
+/* ///NAV STYLES/// */
+
+nav{
+  width: 865px;
+  margin: 6px auto;
+}
+
+nav li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 18px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+nav a:link, nav a:visited {
+  color: black;
+}
+
+
+/* ///CLASSES/// */
+.rule-top {
+  border-top: 1px solid rgb(277, 226, 225);
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+
+/* ///APPLY TO LARGE-6 IN ROW 3/// */
+.rule-sides {
+  padding: 0 20px;
+  border-right: 1px solid rgb(227, 226, 225);
+  border-left: 1px solid rgb(227, 226, 225);
+}
+
+.rtcolhed {
+  font-size: 18px;
+}
+
+.italhed {
+  font-size: italic;
+  font-size: 24px;
+  font-family: 'Crimson Text', serif;
+  text-transform: none;
+}
+
+.imgfloat {
+  float: right;
+  margin-left: 12px;
+}
+
+.imgsizm {
+  width: 180px;
+  margin-top: 60px;
+}
+
+.imgsizs {
+  width: 78px;
+  margin-top: 30px;
+}
